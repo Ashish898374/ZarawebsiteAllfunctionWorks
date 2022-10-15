@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bath.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <script type="module">
+        import {navimp} from "/navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <link rel="stylesheet" href="/footer.css">
+    <script type="module">
+        import {footimp} from "/footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+    <title>Gifts | Anthropologie</title>
+</head>
+<body>
+    <div id="navbar">
+
+    </div>
+    <div id="content">
+        <div id="left">
+            <div id="leftGift">
+                Browse by:
+                <hr>
+                <!-- <a id="inPage" href="../Home&furniture.html"></a> -->
+                <a id="inPage" href="../Home&furniture.html">Home & Furniture</a>
+                <a href="../Bath/bath.html">Bath</a>
+                <a href="../Home Fragrance/home Frag.html">Home Fragrance</a>
+                <a href="../Home and Room/home and room.html">Décor</a>
+                <a href="../Kitchen/kitchen.html">Kitchen</a>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="right">
+            <div id="rightUp">
+                <div id="pageCategory">
+                    <div id="categoryName"></div>
+                    <div id="categoryQty"></div>
+                </div>
+                <div id="sort">
+                    <label for="">Sort :
+                        <select onchange="sort()" name="" id="sorting">
+                            <option value="ALL">Featured</option>
+                            <option value="LTH">Price Low To High</option>
+                            <option value="HTL">Price High To Low</option>
+                            <option value="az">A-Z</option>
+                            <option value="za">Z-A</option>
+                        </select>
+                    </label>
+                    
+                </div>
+                <!-- <div></div> -->
+            </div>
+            <div id="rightDown">
+
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="bath.js"></script>

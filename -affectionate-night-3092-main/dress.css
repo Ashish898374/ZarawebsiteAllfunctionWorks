@@ -1,0 +1,202 @@
+#headlines{
+    height:53px;
+    width:1349px;
+    /* border: rgb(255,0,0)dashed 1px; */
+  
+    text-align: center;
+    color:#26262C;
+    font: 12px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+#tileview{
+    padding-top: 50px;
+    height:fit-content;
+    width:80%;
+    margin: auto;
+    /* border:rgb(255,0,0)dashed 1px; */
+    display: flex;
+    justify-content: space-around;
+}
+#side{
+    height:fit-content;
+    width:216.172px;
+    /* border:rgb(255,0,0)dashed 1px;  */
+    padding: 0 20px 0 0;
+    margin-left: 50px;
+}
+#sidebox{
+    height:672.266px;
+    width:216.172px; 
+}
+#browse{
+    height:27.8906px;
+    width:196..172px;
+    border-bottom: 1px solid #E5E2DE;
+    font-size: 13px;
+    line-height: 16.9px;
+    letter-spacing: 0.6px;
+    font-family: "Avenir",sans-serif;
+    text-decoration: none solid rgb(38,38,44);
+    cursor: pointer;
+}
+#browse:hover{
+    text-decoration: underline solid rgb(22,122,146);
+}
+#bride{
+    height:34.5px;
+    width:196.172px;
+    /* border:rgb(255,0,0)dashed 1px;
+    margin:0 0 10px 0; */
+    box-sizing: border-box;
+    transition: all 0s ease 0s;
+   
+    font-size: 13px;
+    font-family:"Avenir Book",sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 19.5px;
+    width:196..172px;
+    border-bottom: 1px solid #E5E2DE;
+    cursor: pointer;
+
+
+}
+#bride:hover{
+    text-decoration: underline solid rgb(22,122,146);
+}
+.list{
+    height:19.5px;
+    width:196.172px; 
+    margin-top: 10px;
+    font-size: 13px;
+    font-family:"Avenir Book",sans-serif;
+    letter-spacing: 0.6px;
+    line-height: 19.5px;
+    cursor: pointer;
+    color:#26262C;
+
+}
+.list:hover{
+    text-decoration: underline solid rgb(22,122,146);
+    cursor: pointer;
+}
+ #filter{
+    height:27.8906px;
+    width:196.172px;
+    
+    align-items: center;
+     /* border: rgb(255,0,0)dashed 1px;  */
+    margin-top: 30px;
+    border-bottom: 1px solid #E5E2DE;
+    color:#26262C;
+ }
+ .filter_by{
+    height:60.7969px;
+    width:196.172px; 
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20.8px;
+    border-bottom: 1px solid #E5E2DE;
+    font-family:"Avenir Book",sans-serif;
+    color:#26262C;
+ }
+ .filter_by>div>div{
+    height:15px;
+    width:15px;
+    color: #167A92;
+ }
+#product1{
+     /* margin-top: 60px; */
+    /* height:9460.25px;
+    width:992.828px; */
+    /* border:rgb(255,0,0)dashed 1px; */
+   
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows:repeat(auto) ;
+     margin-top: 30px;
+     gap:20px;
+   
+    
+    
+}
+.cart{
+height:500.859px;
+width:233.203px;
+/* border:rgb(255,0,0)dashed 1px */
+
+
+}
+ #cloth_img{
+    height:400.859px;
+     width:233.203px;
+ }
+ /* #cloth_img:hover{
+    
+ } */
+ #p_name{
+    font-size: 13px;
+    font-family: "Avenir Medium",sans-serif;
+    line-height: 19.5px;
+    letter-spacing: 0.6px;
+    color: #26262C;
+ }
+ #p_name:hover{
+    color:#167A92
+ }
+#sort_bar{
+    /* margin-top:20px; */
+    width:992.828px;
+    height:50.5938px;
+    /* border:rgb(255,0,0)dashed 1px; */
+    display: flex;
+    justify-content: space-between;
+}
+#product{
+    height:fit-content;
+    width:992.828px;
+    /* border:rgb(255,0,0)dashed 1px; */
+    gap:30px;
+}
+#sort_button{
+   display: flex;
+   height:35px;
+   width: 324.281px;
+   /* border:rgb(255,0,0)dashed 1px; */
+   align-items: center;
+    
+}
+#sort_button>div{
+    font-size: 13px;
+    font-family: "Avenir Medium",sans-serif;
+    color: #26262C;
+}
+#sort_by{
+    height:35px;
+    width:142.578px;
+    /* border:1px solid #167A92; */
+    margin-left: 15px;
+    border-radius: 4px;
+    border:1px  solid #939395;
+    color:#939395
+}
+#items{
+    height:28.5938px;
+    width:192.156px;
+    /* border:rgb(255,0,0)dashed 1px; */
+    font-size: 22px;
+    font-family: "Avenir Medium",sans-serif;
+    line-height: 28.6px;
+    color: #26262C;
+}
+#no_items{
+    font-size: 13px;
+    font-family: "Avenir Medium",sans-serif;
+    color:#5C5C5F;
+    margin-left: -380px;
+    align-items: center;
+     
+}

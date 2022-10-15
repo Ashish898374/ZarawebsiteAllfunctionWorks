@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#garimg{
+    width: 92%;
+   padding-left: 4%;
+   height: 200px;
+   margin-top: 3%;
+   margin-bottom: 3%;
+}
+#garden-category{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 35px;
+
+}
+#garden-category>div{
+    /* border: 1px solid grey; */
+    width: 91.5%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#garden-category>div>div{
+    /* border: 1px solid red; */
+    width: 15.3%;
+    /* height:65px ; */
+}
+#garden-category>div>div>img+p{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    letter-spacing: 0.06rem;
+    font-size: 19px;
+
+    
+}
+#garden-category>div>div>img{
+    width: 100%;
+    height: 70px;
+}
+#garden_container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+#garden_sorting{
+    /* border: 1px solid red; */
+    width: 18%;
+}
+#garden_product{
+    /* border: 1px solid grey; */
+    width: 80%;
+}
+#garden_product_filter{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#gardenwomen_text{
+    display: flex;
+    gap: 16px;
+}
+#gardenwomen_text>h2{
+    font-family:"Spectral Extra Light",serif;;
+    color: #26262C;
+    letter-spacing: .12rem;
+}
+#gardenwomen_text>p{
+    margin-top: 7px;
+    color: grey;
+}
+#garden_filter{
+    margin-right: 100px;
+}
+#garden_filter>label{
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+#garden_filter>select{
+    height: 38px;
+    border: 1px solid rgb(183, 181, 181);
+    width: 55%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 1px;
+    outline-color: rgba(11, 83, 131, 0.866);
+}
+#garden_filter>select>option{
+    font-size: 13px;
+}
+#garden_append{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+#garden_append>div{
+  margin-bottom: 15px;
+}
+#garden_append>div>img{
+    width: 100%;
+    cursor: pointer;
+}
+#garden_append>div>p{
+    margin-top: 7px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #26262C;
+}
+#title{
+    cursor: pointer;
+}
+#garden_browse{
+    width: 70%;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+#garden_browse+p{
+    margin-left: 60px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    width: 15%;
+}
+a{
+    color: rgb(25, 136, 136);
+}
+#gardenline{
+    border-bottom: 1px solid rgb(161, 158, 158);
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 6%;
+}
+#gardencat{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: -7px;
+
+}
+#gardencat>p{
+     margin-top: 15px;
+     color: #26262C;
+     letter-spacing: 1px;
+     font-size: 13px;
+     font-family: "Avenir Book",sans-serif;
+     
+}
+#garden_filter_cat>p{
+    margin-left: 60px;
+    margin-top: 36px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.garden_filter_head{
+    border-top: 1px solid rgb(208, 206, 206);
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 60px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.garden_filter_head>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.garden_filter_head>div:hover .gardentext{
+   color: #1a85b7;
+}
+.gardentext{
+    font-size: 16px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.gardenplus-text{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.garden_filter_head>div:hover .gardenplus-text{
+    color: #1a85b7;
+ }
+ .garden_filter_head2{
+    /* border-top: 1px solid rgb(208, 206, 206); */
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 40px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.garden_filter_head2>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.garden_filter_head2>div:hover .gardentext2{
+   color: #1a85b7;
+}
+.gardentext2{
+    font-size: 15px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.gardentext2+p{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.garden_filter_head2>div:hover .gardenplus-text2{
+    color: #1a85b7;
+ }
+
+ #gardendiv_hover{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    display: none;
+ }
+ #gardennondivhover{
+    display: block;
+ }

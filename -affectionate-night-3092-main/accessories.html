@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories</title>
+    <link rel="stylesheet" href="accessories.css">
+    <link rel = "icon" href = "https://www.bing.com/th?id=ODLS.0051b818-e457-4786-a718-e99406a0d96c&w=32&h=32&o=6&pid=13.1" type = "image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="accessories_container">
+        <div id="accessories_sorting">
+            <div id="accessories_browse">Browse by:</div>
+            <p><a href="">Shoes</a></p>
+            <div id="a_line"></div>
+            <div id="a_cat">
+                <p>New</p>
+                <p>Top Rated</p>
+                <p>Belt</p>
+                <p>Sunglasses</p>
+                <p>Hat</p>
+                <p>Jewelry</p>
+                <!-- <p>Fashion Gloves</p> -->
+                <!-- <p>Socks & Tight</p> -->
+            </div>
+            <div id="accessories_filter_cat">
+                <p>Filter by:</p>
+                <div class="accessories_filter_head">
+                    <div>
+                        <h2 class="accessories_text">Color</h2>
+                        <p class="accessories_plus-text">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">Occasion</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">Price</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">Heel Type</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">Material</h2>
+                        
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">Size</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">High Heel</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">Brand</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="accessories_filter_head2">
+                    <div>
+                        <h2 class="accessories_text2">In Stock</h2>
+                        <p class="accessories_plus-text2">+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="accessories_product">
+            <div id="accessories_product_filter">
+                <div id="a_women_text">
+                    <h2>Women's Accessories</h2>
+                    <p id="total_accessories"></p>
+                </div>
+                <div id="accessories_filter">
+                    <label for="">Sort:</label>
+                    <select name="" onchange="sortingfun()" id="select-value">
+                        <option value="">Featured</option>
+                        <option value="lth">Price:Low to High</option>
+                        <option value="htl">Price:High to Low</option>
+                        <option value="">Newest</option>
+                        <option value="atz">A-Z</option>
+                        <option value="zta">Z-A</option>
+                    </select>
+                </div>
+            </div>
+             <div id="accessories_append">
+                
+             </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="accessories.js"></script>

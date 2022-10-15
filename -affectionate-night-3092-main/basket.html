@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropologie</title>
+    <link rel="stylesheet" href="navbar.css">
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <link rel="stylesheet" href="basket.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+    <link rel = "icon" href = "https://www.bing.com/th?id=ODLS.0051b818-e457-4786-a718-e99406a0d96c&w=32&h=32&o=6&pid=13.1" type = "image/x-icon">
+
+</head>
+<body>
+    <div id="navbar"></div>
+       <div id="sandy_container">
+        <div id="imgs_container"></div>
+        <div class="img-zoom-container">
+            <!-- <div id="akki"> -->
+                <img id="myimage" src="" width="300" height="240">
+            <!-- </div> -->
+            <div id="myresult" class="img-zoom-result">
+                
+            </div>
+          </div>
+       </div>
+       <div id="footer"></div>
+</body>
+</html>
+<script src="basket.js"></script>

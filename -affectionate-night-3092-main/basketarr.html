@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropologie</title>
+    <link rel="stylesheet" href="basketarr.css">
+    <link rel = "icon" href = "https://www.bing.com/th?id=ODLS.0051b818-e457-4786-a718-e99406a0d96c&w=32&h=32&o=6&pid=13.1" type = "image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "/footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="arr_basket">
+         <div id="arr_basket_append">
+            <h2 id="basket">Basket</h2>
+            <div id="item_detail">
+                <div id="item">
+                    <p>item</p>
+                </div>
+                <div id="item_price_detail">
+                    <p>item price</p>
+                    <p>Quantity</p>
+                    <p>Total Price</p>
+                </div>
+
+            </div>
+            <div id="append_basket"></div>
+
+        </div>
+         <div id="payment">
+            <h2>Order Summary</h2>
+            <div id="big_div">
+                <div class="child_div">
+                    <p class="sandy_text">Subtotal</p>
+                    <p id="total_price"></p>
+                </div>
+
+                <div class="child_div">
+                    <p class="sandy_text">Shipping</p>
+                    <p class="sandy_text">TBD</p>
+                </div>
+
+                <!-- <div class="child_div">
+                    <p class="sandy_text">VAT</p>
+                    <p id="default">$19</p>
+                </div> -->
+
+                <div class="child_div">
+                    <p class="sandy_text">total</p>
+                    <p id="total_text">$130</p>
+                </div>
+
+                <div class="child_div">
+                    <p class="img_p">Klarna is only available to ship to certain countries</p>
+                    <img src="https://www.anthropologie.com/static/v3/images/klarna-logo-ea32669636986d0317f95f0c04fdcb6d.svg" alt="">
+                </div>
+
+                <div class="child_div">
+                    <p class="img_p">Or 4 interest-free installments of $204.99 with </p>
+                    <img src="https://www.anthropologie.com/static/v3/images/afterpay-logo-7904b549fb7a2a970c606efc9f1e8260.svg" alt="">
+                </div>
+
+                <button id="checkout_btn">PROCEED TO CHECKOUT</button>
+            </div>
+         </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="basketarr.js"></script>

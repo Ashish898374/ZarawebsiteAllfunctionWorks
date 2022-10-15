@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="authentication.css">
+    <title>Signup</title>
+</head>
+<body background="https://images.urbndata.com/is/image/Anthropologie/52733375_011_b?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349">
+    <div class="main">
+        <div class="details" id="abc">
+            <h3>Create An Account</h3>
+        <hr>
+        <h4>Welcome to Anthropologie! It's quick and easy to set up an account.</h4>
+        <div class="detailsIn">
+            <label for="">Email*</label>
+            <br>
+            <input type="email" name="" id="email">
+            <br>
+            <label for="">Mobile Number*</label>
+            <br>
+            <input type="number" name="" id="mobile">
+            <br>
+            <label for="">Password*</label>
+            <br>
+            <input type="password" name="" id="pass">
+            <br>
+            <label for="">Confirm Password*</label>
+            <br>
+            <input type="password" name="" id="ConPass">
+            <br>
+            <button id="signup" onclick="SignUp()">Sign Up</button>
+        </div>
+        <p>By creating an account, you agree to Anthropologie's <a href="https://www.anthropologie.com/help/terms-of-use">terms of use</a> and <a href="https://www.anthropologie.com/help/privacy-policy">privacy policy</a>. Landlines, VoIP, and prepaid phones are not supported. Standard message & data rates may apply. Message frequency may vary. Reply HELP for help, and STOP to cancel. <a href="https://www.anthropologie.com/help/contact-us#chat">Contact us</a> for more information.</p>
+        
+        </div>
+        <div class="details">
+            <h3>Already Have an Account</h3>
+            <div class="detailsIn">
+                <label for="">Email*</label>
+            <br>
+            <input type="email" name="" id="LoginEmail">
+            <br>
+            <label for="">Password*</label>
+            <br>
+            <input type="password" name="" id="LoginPass">
+           
+            </div>
+            
+            <button id="login" onclick="LogIn()">SIGN IN</button>
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="authentication.js"></script>

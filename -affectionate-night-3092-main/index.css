@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    /* border: 1px dashed red; */
+    width: 70%;
+    margin: auto;
+}
+.singleImg{
+    /* border: 1px solid cyan; */
+    height: 50px;
+    width: 100%;
+    /* margin: auto; */
+    /* box-sizing: border-box; */
+    padding: 20px 0px 20px 0px;
+}
+.singleImg img{
+    height: 100%;
+    width: 100%;
+}
+
+.fashion{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    row-gap: 50px;
+    column-gap: 1%;
+    width: 100%;
+    /* height: 400px; */
+}
+.fashionDiv{
+    /* border: 1px solid red; */
+    /* width: 350px; */
+    position: relative;
+    /* margin: auto; */
+    height: 500px;
+    /* margin: auto; */
+}
+
+.fashionDiv>img{
+    /* margin: auto; */
+    height: 500px;
+    width: 100%;
+    
+}
+.fashionDiv span{
+    position: absolute;
+    left:20%;
+    right: 20%;
+    text-align: center;
+    top: 80%;
+    padding: 5px;
+    background-color: white;
+    /* color: white; */
+    font-size: 16px;
+    width: auto;
+    /* padding-top: 16px; */
+    /* height: 30px; */
+    
+    /* border: 1px solid red; */
+}
+.fashionDiv span a{
+    color: black;
+    /* padding: 5px 5px 5px 5px; */
+}
+.fashionDiv h4{
+    padding: 20px 0px 20px 0px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+.fashionDiv p{
+    line-height: 22px;
+    font-size: 14px;
+}
+
+#ecxclusive{
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    position: relative;
+}
+#ecxclusive span{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    background-color: white;
+    top: 80%;
+    width: auto;
+    height: 50px;
+    padding-top: 16px;
+    box-sizing: border-box;
+
+}
+#ecxclusive img{
+    width: 100%;
+}
+#ecxclusive span a{
+    color: black;
+}
+#dress{
+    position: relative;
+    /* height: fit-content; */
+    padding-bottom: 50px;
+    /* border: 1px solid red; */
+    /* box-sizing: border-box; */
+}
+#dress img{
+    width: 100%;
+}
+#dress span{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    text-align: center;
+    background-color: white;
+    top: 70%;
+    width: auto;
+    height: 50px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+#dress span a{
+    color: black;
+}
+.corosol{
+    height: 400px;
+    width: 100%;
+}
+#bottom{
+    /* border: 1px solid red; */
+    height: 500px;
+    margin-bottom: 50px;
+}
+#bottom div img{
+    height: 250px;
+}

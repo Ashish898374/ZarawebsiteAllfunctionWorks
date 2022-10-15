@@ -1,0 +1,90 @@
+#main{
+    /* background-color: #f7f6f2;  */
+    /* height: 100%; */
+    /* margin-top: 190%; */
+}
+
+#firsdiv{
+    width: 85%;
+    height: 150px;
+    display: flex;
+ justify-content: space-evenly;
+ margin-left: 10%;
+ background-color: #f7f6f2;
+ margin-top: 50px;
+
+   
+}
+#firdiv{
+    width: 50%;
+}
+#secdiv{
+    width: 50%;
+    margin-top: 2%;
+}
+.par1{
+    font-family: "Avenir Medium", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #26262c;
+   
+}
+.par2{
+    font-family: "Avenir Medium", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5c5c5f;
+   
+}
+#inputemail{
+    width: 50%;
+    height: 50%;
+    /* margin-top: 5%; */
+
+}
+#btnsub{
+    height: 60%;
+    width: 17%;
+    color: aliceblue;
+    background-color: #4b5666;
+}
+.par3{
+    font-family: "Avenir Medium", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #5c5c5f;
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: #f7f6f2;
+    
+   
+}
+
+#secdiv1{
+    width: 85%;
+    height: 300px;
+    display: flex;
+ justify-content: space-around;
+ padding-left: 5%;
+ background-color: #f7f6f2;
+ margin-top: 2%;
+
+
+
+}
+#don{
+    font-family:"Times New Roman";
+ font-weight: 400;
+ color: #26262c;
+ font-size: 15px;
+}
+#divi{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+ padding-left: 40%;
+ margin-top: 2%;
+
+    
+}

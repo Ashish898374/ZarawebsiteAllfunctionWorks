@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+  width: 80%;
+  height: 150px;
+  margin: auto;
+/* border: 10px solid rebeccapurple; */
+/* background-color:rgb(238, 237, 237); */
+
+}
+#select{
+  border: none;
+  margin-left: 1000px;
+  color: #167A92;
+}
+#select a{
+ text-decoration: underline;
+  
+}
+
+#container1{
+  width: 100%;
+  height: 40px;
+  display: flex;
+/* border: 1px solid rebeccapurple; */
+
+}
+.clsis a{
+  text-decoration: none;
+  margin-left: 10px;
+  color: #167A92;
+}
+#container1 img{
+  width: 80%;
+  height: 40px;
+  display: flex;
+/* border: 1px solid rebeccapurple; */
+color: 1px solid #E5E2DE;
+
+}
+#container1 img:hover{
+ 
+color: 1px solid black;
+
+}
+
+#container2{
+  width: 100%;
+  height: 60px;
+border: 1px solid #E5E2DE;
+margin-left: 5px;
+}
+#com{
+  border: 1px solid #E5E2DE;
+  width: 400px;
+  height: 60px;
+  margin-left: 30px;
+  display: flex;
+}
+.git{
+  color: #167A92;
+  size: 10px;
+  height: 60px;
+  width: 400px;
+  
+}
+.line{
+  margin-top: 0px;
+ size: 100px;
+}
+#mcontiner{
+  display: flex;
+  gap: 20px;
+  /* border:  1px solid black; */
+  width: 30%;
+  height: 60px;
+}
+
+#logoimg img{
+  width: 90%;
+  height: 70px;
+
+}
+.box{
+margin-left: 500px;
+  position: relative;
+  width: 500px;
+  height: 42px;
+  border: 1px solid #167A92;
+  padding: 0px 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* background-color: #167A92; */
+}
+.elementcontainer
+{
+  width: 300px;
+  height: 100%;
+  vertical-align: middle;
+  
+
+}
+.search{
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 2px;
+  font-size: 15px;
+  color: #167A92;
+  font-weight: 500;
+}
+.search:focus{
+  outline: none;
+}
+.fa fa-search{
+  font-size: 30px;
+  color: #167A92;
+}
+.blue-color {
+        color:blue;
+    }
+    #navbar1 {
+    /* border: 1px solid rebeccapurple; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    }
+   
+    #page{
+      width: 100%;
+      display: flex;
+      padding-top: 15px;
+      /* border: 1px solid red; */
+      /* gap: 40px; */
+      justify-content: space-between;
+      text-decoration: none;
+    }
+    #page p a{
+      
+      text-decoration: none;
+    }
+    #page p a:hover{
+      
+      text-decoration: underline;
+      color: #167A92;
+    }

@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#shoes-category{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 35px;
+
+}
+#shoes-category>div{
+    /* border: 1px solid grey; */
+    width: 91.5%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#shoes-category>div>div{
+    /* border: 1px solid red; */
+    width: 15.3%;
+    /* height:65px ; */
+}
+#shoes-category>div>div>img+p{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    letter-spacing: 0.06rem;
+    font-size: 19px;
+
+    
+}
+#shoes-category>div>div>img{
+    width: 100%;
+    height: 70px;
+}
+#shoes_container{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 700px; */
+    display: flex;
+    justify-content: space-between;
+}
+#shoes_sorting{
+    /* border: 1px solid red; */
+    width: 18%;
+}
+#shoes_product{
+    /* border: 1px solid grey; */
+    width: 80%;
+}
+#shoe_product_filter{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#women_text{
+    display: flex;
+    gap: 16px;
+}
+#women_text>h2{
+    font-family:"Spectral Extra Light",serif;;
+    color: #26262C;
+    letter-spacing: .12rem;
+}
+#women_text>p{
+    margin-top: 7px;
+    color: grey;
+}
+#shoe_filter{
+    margin-right: 100px;
+}
+#shoe_filter>label{
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+#shoe_filter>select{
+    height: 38px;
+    border: 1px solid rgb(183, 181, 181);
+    width: 55%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 1px;
+    outline-color: rgba(11, 83, 131, 0.866);
+}
+#shoe_filter>select>option{
+    font-size: 13px;
+}
+#shoe_append{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+#shoe_append>div{
+  margin-bottom: 15px;
+}
+#shoe_append>div>img{
+    width: 100%;
+    cursor: pointer;
+}
+#shoe_append>div>p{
+    margin-top: 7px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #26262C;
+}
+#title{
+    cursor: pointer;
+}
+#shoe_browse{
+    width: 70%;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+#shoe_browse+p{
+    margin-left: 60px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    width: 15%;
+}
+a{
+    color: rgb(25, 136, 136);
+}
+#line{
+    border-bottom: 1px solid rgb(161, 158, 158);
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 6%;
+}
+#cat{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: -7px;
+
+}
+#cat>p{
+     margin-top: 15px;
+     color: #26262C;
+     letter-spacing: 1px;
+     font-size: 13px;
+     font-family: "Avenir Book",sans-serif;
+     
+}
+#shoe_filter_cat>p{
+    margin-left: 60px;
+    margin-top: 36px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.shoe_filter_head{
+    border-top: 1px solid rgb(208, 206, 206);
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 60px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.shoe_filter_head>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.shoe_filter_head>div:hover .text{
+   color: #1a85b7;
+}
+.text{
+    font-size: 16px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.plus-text{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.shoe_filter_head>div:hover .plus-text{
+    color: #1a85b7;
+ }
+ .shoe_filter_head2{
+    /* border-top: 1px solid rgb(208, 206, 206); */
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 40px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.shoe_filter_head2>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.shoe_filter_head2>div:hover .text2{
+   color: #1a85b7;
+}
+.text2{
+    font-size: 15px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.text2+p{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.shoe_filter_head2>div:hover .plus-text2{
+    color: #1a85b7;
+ }
+
+ #div_hover{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    display: none;
+ }
+ #nondivhover{
+    display: block;
+ }

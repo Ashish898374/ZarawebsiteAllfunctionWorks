@@ -1,0 +1,269 @@
+*{
+    letter-spacing: 1.2px;
+    outline: none;
+}
+#last{
+    margin-left: 419px;
+    margin-top: -7px;
+    width: 46%;
+    height: 40px;
+
+   
+}
+/* #fi{ */
+/* margin-top: -0px; */
+
+/* } */
+#las{
+margin-left: 423px;
+margin-top: -67px;
+/* border-radius: 8px; */
+}
+#selecs{
+width: 45%;
+height: 40px;
+
+/* font-size: 20px; */
+
+}
+#name{
+width: 46%;
+height: 40px;
+position: relative;
+/* position: absolute; */
+/* margin-top: -38px; */
+/* font-size: 20px; */
+/* margin-left: 100px; */
+}
+#address{
+width: 93%;
+height: 40px;
+
+/* font-size: 20px; */
+
+}
+#add12{
+width: 93%;
+height: 40px;
+/* font-size: 20px; */
+
+}
+#box{
+
+height: 40px;
+/* margin-right: 50px; */
+}
+#po{
+margin-top: -30px;
+margin-left: 30px;
+}
+#city{
+width: 46%;
+height: 40px;
+position: relative;
+/* font-size: 20px; */
+}
+#region{
+margin-left: 417px;
+width: 46%;
+    height: 40px;
+ margin-top: -7px;
+    /* font-size: 20px; */
+}
+#regions{
+margin-left: 429px;
+margin-top: -67px;
+}
+#post{
+width: 46%;
+height: 40px;
+/* font-size: 20px; */
+}
+#mobile{
+width: 46%;
+height: 40px;
+
+/* font-size: 20px; */
+}
+#navb{
+
+width: 60%;
+height: auto;
+/* border: 2px solid red; */
+margin-left: 100px;
+margin-bottom: 20px;
+margin-top: 70px;
+
+}
+#sub{
+width: 20%;
+height: 30px;
+margin-left: 20px;
+background-color: red;
+color: black;
+/* font-size: 20px; */
+}
+
+
+
+
+#payment{
+    margin-top: -650px;
+    width: 25%;
+    /* border: 1px solid green; */
+    height: 300px;
+    /* margin-right: 61px; */
+    margin-left: 1085px;
+    position: absolute;
+}
+#payment>h2{
+    margin-bottom: 10px;
+}
+#big_div{
+    border: 1px solid rgb(188, 187, 187);
+    padding: 20px;
+}
+.child_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_div>img{
+    width: 15%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.sandy_text{
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.img_p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+#checkout_btn{
+    
+    margin-top: 20px;
+    width: 98%;
+    height: 45px;
+    border: none;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #4b5666;
+    cursor: pointer;
+}
+#item_detail{
+    
+    border-bottom: 1px solid rgb(191, 191, 191);
+    border-top: 1px solid rgb(191, 191, 191);
+    width: 90%;
+    height: 60px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   margin-top: 20px;
+}
+#item>p{
+    margin-left: 170px;
+    margin-top: 18px;
+    letter-spacing: 1.1px;
+}
+#item_detail>div{
+    width: 50%;
+}
+
+#item_price_detail{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+}
+#item_price_detail>p{
+    margin-top: 18px;
+    letter-spacing: 1.1px;
+}
+#append_basket{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+#child{
+    width: 15%;
+
+}
+#child1{
+    /* border: 1px solid red; */
+    width: 35%;
+}
+#clr{
+    margin-top: 10px;
+    font-size: 15px;
+}
+#sz{
+    margin-top: 10px;
+    width: 20%;
+    height: 30px;
+    color: black;
+    background-color: #fff;
+    border:1px solid  rgb(137, 136, 136);
+}
+
+#child3{
+    /* border: 1px solid grey; */
+    margin-left: 70px;
+    width: 8%;
+    /* height: 80px; */
+}
+#child3>div{
+   display: flex;
+   gap: 10px;
+}
+select{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#child4{
+    margin-left: 50px;
+    /* border: 1px solid green; */
+    width: 10%;
+}
+#remove{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 2px;
+    color:rgb(23, 94, 160);
+    cursor: pointer;
+}
+#x{
+    position: absolute;
+    border-bottom: 1px solid grey;
+    width: 48%;
+    /* height: 50px; */
+    margin-left:180px ;
+    margin-top: 200px;
+}
+
+#con_child{
+    display: flex;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+#data_img{
+    width: 100%;
+}
+#default{
+    margin-top: 10px;
+}
+#total_text{
+    margin-top: 5px;
+}
+#basket{
+    margin-left: 52px;
+}

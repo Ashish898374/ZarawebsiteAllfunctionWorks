@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#beauty-category{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 35px;
+
+}
+#beauty-category>div{
+    /* border: 1px solid grey; */
+    width: 91.5%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#beauty-category>div>div{
+    /* border: 1px solid red; */
+    width: 15.3%;
+    /* height:65px ; */
+}
+#beauty-category>div>div>img+p{
+    /* position: absolute; */
+    text-align: center;
+    margin-top: -55px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    letter-spacing: 0.06rem;
+    font-size: 19px;
+
+    
+}
+#beauty-category>div>div>img{
+    width: 100%;
+    height: 70px;
+}
+#beauty_container{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+#beauty_sorting{
+    /* border: 1px solid red; */
+    width: 18%;
+}
+#beauty_product{
+    /* border: 1px solid grey; */
+    width: 80%;
+}
+#beauty_product_filter{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#beautywomen_text{
+    display: flex;
+    gap: 16px;
+}
+#beautywomen_text>h2{
+    font-family:"Spectral Extra Light",serif;;
+    color: #26262C;
+    letter-spacing: .12rem;
+}
+#beautywomen_text>p{
+    margin-top: 7px;
+    color: grey;
+}
+#beauty_filter{
+    margin-right: 100px;
+}
+#beauty_filter>label{
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+#beauty_filter>select{
+    height: 38px;
+    border: 1px solid rgb(183, 181, 181);
+    width: 55%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 1px;
+    outline-color: rgba(11, 83, 131, 0.866);
+}
+#beauty_filter>select>option{
+    font-size: 13px;
+}
+#beauty_append{
+    /* border: 1px solid red; */
+    height: fit-content;
+    width: 95%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+#beauty_append>div{
+  margin-bottom: 15px;
+}
+#beauty_append>div>img{
+    width: 100%;
+    cursor: pointer;
+}
+#beauty_append>div>p{
+    margin-top: 7px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #26262C;
+}
+#title{
+    cursor: pointer;
+}
+#beauty_browse{
+    width: 70%;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+#beauty_browse+p{
+    margin-left: 60px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    width: 15%;
+}
+a{
+    color: rgb(25, 136, 136);
+}
+#beautyline{
+    border-bottom: 1px solid rgb(161, 158, 158);
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 6%;
+}
+#beautycat{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: -7px;
+
+}
+#beautycat>p{
+     margin-top: 15px;
+     color: #26262C;
+     letter-spacing: 1px;
+     font-size: 13px;
+     font-family: "Avenir Book",sans-serif;
+     
+}
+#beauty_filter_cat>p{
+    margin-left: 60px;
+    margin-top: 36px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.beauty_filter_head{
+    border-top: 1px solid rgb(208, 206, 206);
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 60px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.beauty_filter_head>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.beauty_filter_head>div:hover .beautytext{
+   color: #1a85b7;
+}
+.beautytext{
+    font-size: 16px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.beautyplus-text{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.beauty_filter_head>div:hover .beautyplus-text{
+    color: #1a85b7;
+ }
+ .beauty_filter_head2{
+    /* border-top: 1px solid rgb(208, 206, 206); */
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 40px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.beauty_filter_head2>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.beauty_filter_head2>div:hover .beautytext2{
+   color: #1a85b7;
+}
+.beautytext2{
+    font-size: 15px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.beautytext2+p{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.beauty_filter_head2>div:hover .beautyplus-text2{
+    color: #1a85b7;
+ }
+
+ #beautydiv_hover{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    display: none;
+ }
+ #beautynondivhover{
+    display: block;
+ }

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropologie/Garden&Outdoor</title>
+
+    
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="garden.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+     <img id="garimg" src="https://images.ctfassets.net/5de70he6op10/1D4rEI4jwM4aNGoKxPacjm/60d585ede668c1b1b6b2320ab3a496e5/081321_AnthroL1Banner_2_large.jpg?w=2882&q=80&fm=webp" alt="">
+    <div id="garden_container">
+        <div id="garden_sorting">
+            <div id="garden_browse">Browse by:</div>
+            <p><a href="">Garden&Utility</a></p>
+            <div id="gardenline"></div>
+            <div id="gardencat">
+               
+                <p>Planters</p>
+                <p>Garden & Utility</p>
+                <p>Outdoor living</p>
+                <p>Furniture</p>
+                <p>Plants & Flowers</p>
+               
+            </div>
+            <div id="garden_filter_cat">
+                <p>Filter by:</p>
+                <div class="garden_filter_head">
+                    <div>
+                        <h2 class="gardentext">Price</h2>
+                        <p class="gardenplus-text">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">Color</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">Brand</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">Size</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">In Stock</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">free Pickup</h2>
+                        <p class="garden-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">High Heel</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">Brand</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+                <div class="garden_filter_head2">
+                    <div>
+                        <h2 class="gardentext2">In Stock</h2>
+                        <p class="gardenplus-text2">+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="garden_product">
+            <div id="garden_product_filter">
+                <div id="gardenwomen_text">
+                    <h2>Garden & Outdoor</h2>
+                    <p id="gardentotal">100 Products</p>
+                </div>
+                <div id="garden_filter">
+                    <label for="">Sort:</label>
+                    <select name="" onchange="sortingfun()" id="gardenselect-value">
+                        <option value="">Featured</option>
+                        <option value="lth">Price:Low to High</option>
+                        <option value="htl">Price:High to Low</option>
+                        <option value="">Newest</option>
+                        <option value="atz">A-Z</option>
+                        <option value="zta">Z-A</option>
+                    </select>
+                </div>
+            </div>
+             <div id="garden_append">
+                
+             </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="garden.js"></script>
+<script type="module">
+    import {footimp} from "./footimp.js"
+    document.querySelector("#footer").innerHTML=footimp();
+</script>

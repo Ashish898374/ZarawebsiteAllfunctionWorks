@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dress.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <!-- <div id="headlines">
+                <p>Weddings  /  Brides  /  Weddings Dresses</p>
+    </div> -->
+     <div id="tileview">
+        <div id="side">
+            <div id="sidebox">
+                <div id="browse">Browse by:</div>
+                <div id="bride" onclick="sale()">sale</div>
+                <div class="list" onclick="sale()">Freshly Cut</div>
+                <div class="list" onclick="sale()">Accessories</div>
+                <div class="list" onclick="sale()">Beauty & Wellness</div>
+                <div class="list" onclick="sale()">Clothing</div>
+                <div class="list" onclick="sale()">Home & Furniture</div>
+                <div class="list" onclick="sale()">Petites</div>
+                <div class="list" onclick="sale()">Plus</div>
+                <div class="list" onclick="sale()">Shoes</div>
+                <div id="filter" onclick="sale()">Filter by:</div>
+                   
+                <div class="filter_by">
+                     <div>Product Type</div>
+                     <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>Price</div>
+                    <div>+</div>
+               </div>
+                <div class="filter_by">
+                    <div>Color</div>
+                     <div>+</div> 
+                   
+                </div>
+                <div class="filter_by">
+                    <div>Brand</div>
+                    <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>Size</div>
+                    <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>In Stock</div>
+                    <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>Free Pickup</div>
+                    <div>+</div>
+               </div>
+               <p style="color:#E5E2DE;">Reset all filters</p>
+            </div>
+        </div> 
+     
+          <div id="product">
+           
+             <div  id="sort_bar">
+                <div id="items">All Sales items</div>
+                <p id="no_items">25 products</p>
+                <div id="sort_button">
+                    <div>Sort:</div>
+                    <select name="" id="sort_by">
+                        <option value="">Featured</option>
+                        <option value="">Price:Low to High</option>
+                        <option value="">Price:High to Low</option>
+                        <option value="">Newest</option>
+                        <option value="">Bestselling</option>
+                        <option value="">Rating:High to Low</option>
+                        <option value="">A-Z</option>
+                        <option value="">Z-A</option>
+                    </select>
+                </div>
+             </div> 
+             <div id="product1"></div>
+        </div>  
+         
+    </div> 
+    <div id="footer"></div>
+</body>
+</html>
+<script src="sales.js"></script>

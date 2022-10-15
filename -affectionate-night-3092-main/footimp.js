@@ -1,0 +1,114 @@
+function footimp(){
+    return ` <div id="firsdiv">
+
+
+    <div id="firdiv">
+        <p class="par1">Sign Up for Email</p>
+        <p class="par2">Receive early access to new arrivals, sales, exclusive content, events and much more!
+        </p>
+    </div>
+    <div id="secdiv"><label for="">Email Address*</label> <br>
+        <input type="text" name="" id="inputemail">
+        <button id="btnsub">Submit</button>
+    </div>
+
+</div>
+<p class="par3">
+    By signing up, you will receive Anthropologie offers, promotions and other commercial messages. You are also
+    agreeing to Anthropologie’s <a href="https://www.anthropologie.com/help/privacy-policy">Privacy Policy</a>
+    Privacy Policy. You may unsubscribe at any time.</p>
+
+
+<div id="secdiv1">
+    <div>Help
+       <p > <a href="https://www.anthropologie.com/help/returns-exchanges" style="text-decoration: none;">Track Your Order</a></p>
+        <p> <a href="https://www.anthropologie.com/help/stories-community-greater-good" style="text-decoration: none;">Start A retunr</a></p>
+        <p> <a href="https://www.anthropologie.com/help/returns-exchanges" style="text-decoration: none;">Return & Exchange</a></p>
+        <p> <a href="https://www.anthropologie.com/help/shipping-info" style="text-decoration: none;">shipping</a></p>
+        <p> <a href="" style="text-decoration: none;">Customer Service</a></p>
+        <p> <a href="" style="text-decoration: none;">Cureent Promotions</a></p>
+        <p> <a href="" style="text-decoration: none;">Product Recalls</a></p>
+
+    </div>
+    <div>About us
+        <p><a href="https://www.anthropologie.com/help/our-story" style="text-decoration: none;">Our story</a></p>
+        <p><a href="https://anthropologieevents.splashthat.com/" style="text-decoration: none;">Events</a></p>
+        <p> <a href="https://www.anthropologie.com/help/stories-community-greater-good" style="text-decoration: none;">A greater Good</a></p>
+        <p> <a href="" style="text-decoration: none;">Diversity & Inclusion</a></p>
+        <p> <a href="" style="text-decoration: none;">Stories</a></p>
+    </div>
+    <div>Services
+        <p > <a href="https://www.anthropologie.com/help/anthro-loyalty" style="text-decoration:none;">AnthroPerks</a> </p>
+        <p> <a href="https://www.anthropologie.com/help/gift-card" style="text-decoration: none;">Gift Cards</a> </p>
+        <p> <a href="https://www.anthropologie.com/help/design-trade-program" style="text-decoration: none;">Anthroliving B2B</a> </p>
+        <p > <a href="" style="text-decoration: none;">Furniture: Guides & Services</a> </p>
+        <p> <a href="" style="text-decoration: none;">Store Pickup & Collection Points</a></p>
+        <p> <a href="" style="text-decoration: none;">Klarna</a></p>
+    </div>
+    <div>Connect
+        <p><a href="https://www.anthropologie.com/help/contact-us" style="text-decoration: none;">Contack US</a> </p>
+        <p><a href="https://www.anthropologie.com/help/connect-with-us" style="text-decoration: none;">Stay Connected</a> </p>
+        <p><a href="https://www.urbn.com/work-with-us"  style="text-decoration: none;" >Careers</a> </p>
+        <p><a href="https://www.anthropologie.com/help/personal-styling" style="text-decoration:none ;">Styling Services</a> </p>
+        <p> <a href="" style="text-decoration: none;">Request A Catalog</a> </p>
+    </div>
+    <div>
+        <p style="color: #509aab;"> <i class="fa-solid fa-location-dot" style="color:#509aab;"></i> <a
+                href="https://www.anthropologie.com/stores" style="color:#509aab; text-decoration: none;"> Store
+                Locator</a> </p>
+        <p style="color:#509aab;"> <i class="fa-solid fa-envelope" style="color:#509aab;"></i> <a href=""
+                style="color:#509aab; text-decoration: none;">Get Email</a> </p>
+    </div>
+</div>
+<div id="divi">
+    <img src="https://images.ctfassets.net/5de70he6op10/4gWq1G4qLLgmqlNeHfzV2T/55298745127c36c5876f4013434c0c37/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917_Copy_2.svg"
+        alt="">
+    <p> <a href="https://www.pinterest.com/anthropologie/"
+            style="text-decoration: none; font-size: 25px;color: #509aab;"><i
+                class="fa-brands fa-pinterest"></i></a></p>
+    <p> <a href="https://www.instagram.com/anthropologie/"
+            style="text-decoration:none; font-size: 25px;color: #509aab;"> <i
+                class="fa-brands fa-instagram"></i></a></p>
+    <p> <a href="https://www.facebook.com/Anthropologie"><i class="fa-brands fa-square-facebook"
+                style="text-decoration:none; font-size: 25px;color: #509aab;"></i></a></p>
+    <p> <a href="https://twitter.com/anthropologie"><i class="fa-brands fa-twitter"
+                style="text-decoration:none; font-size: 25px;color: #509aab; "></i></a></p>
+</div>
+<div>
+    <img src="https://images.ctfassets.net/5de70he6op10/ZFKP51BBmuPpIh1BnlP9f/241ab62f70aa3581f4f33abd45f1d195/022421_SiteFooter_SMS_SIgnUp_SS.jpg"
+        alt="" style="width: 90%; height: 150px; margin-left: 5%; margin-top: 1%; ">
+</div>
+<div style=" display: flex;  width: 30%; justify-content: space-between; margin: auto; margin-top: 1%;">
+    <p><a href="https://www.anthropologie.com/?cm_mmc=Anthro-_-Footer-_-en-US-_-en-US&cm_sp=FOOTER-_-INTL-_-en-US_en-US&ref=footer" style="text-decoration:none ;">US</a> </p>
+    <p>|</p>
+    <p><a href="https://www.anthropologie.com/fr-fr/?cm_mmc=Anthro-_-Footer-_-fr-FR-_-en-US&ref=footer&utm_campaign=intl_footer&utm_medium=a_ref&utm_source=anthro_en-us&utm_term=fr-fr" style="text-decoration:none ;">France</a> </p>
+    <p>|</p>
+    <p> <a href="https://www.anthropologie.com/de-de/?cm_mmc=Anthro-_-Footer-_-de-DE-_-en-US&ref=footer&utm_campaign=intl_footer&utm_medium=a_ref&utm_source=anthro_en-us&utm_term=de-de" style="text-decoration:none ;">Germany</a></p>
+    <p>|</p>
+    <p> <a href="https://www.anthropologie.com/it-it/?cm_mmc=Anthro-_-Footer-_-it-IT-_-en-US&utm_medium=a_ref&utm_source=anthro_en-us&utm_campaign=intl_footer&utm_term=it-it" style="text-decoration:none ;">Italy</a></p>
+    <p>|</p>
+    <p> <a href="https://www.anthropologie.com/es-es/?cm_mmc=Anthro-_-Footer-_-es-ES-_-en-US&utm_medium=a_ref&utm_source=anthro_en-us&utm_campaign=intl_footer&utm_term=es-es" style="text-decoration:none ;">Spain</a></p>
+    <p>|</p>
+    <p> <a href="https://www.anthropologie.com/es-es/?cm_mmc=Anthro-_-Footer-_-es-ES-_-en-US&utm_medium=a_ref&utm_source=anthro_en-us&utm_campaign=intl_footer&utm_term=es-es" style="text-decoration:none ;">UK</a></p>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+<div style=" display: flex;  width: 40%; justify-content: space-between;  margin-top: 1%;">
+<p><a href="https://www.anthropologie.com/help/privacy-policy" style="text-decoration:none;color: #509aab; ">Privacy Policy</a>  </p>
+<p>|</p>
+<p ><a href="https://www.anthropologie.com/help/terms-of-use" style="text-decoration:none;color: #509aab;">Terms of Use</a></p>
+<p>|</p>
+<p ><a href="https://www.anthropologie.com/help/calif-notice" style="text-decoration:none;color: #509aab;">CA Transparency</a></p>
+<p>|</p>
+<p ><a href="" style="text-decoration:none;color: #509aab;">Accessibility</a></p>
+<p>|</p>
+<p ><a href="" style="text-decoration:none;color: #509aab;">URBN.com</a></p>
+<p>|</p>
+<p>for CA Residents</p>
+</div>
+<div>
+<p style="padding-top:20px;">2022 URBN.com. All Rights Reserved.</p>
+</div>
+</div>
+`}
+export{footimp}

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navbar.css">
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+    <link rel="stylesheet" href="wedding.css">
+</head>
+<body>
+    <div id="navbar"></div>
+     <div id="content">
+        <div id="side">
+            <div id="browse"><p>Browse by:</p></div>
+            <div id="list">
+                <div id="wedding" onclick="shop()"><p>Weddings</p></div>
+                <div class="shop" onclick="shop()"><p>Shop All Weddings</p></div>
+                <div class="shop" onclick="shop()"><p>New</p></div>
+                <div class="shop" onclick="shop()"><p>Bride</p></div>
+                <div class="shop" onclick="shop()"><p>Bridemaids</p></div>
+                <div class="shop" onclick="shop()"><p>Bridemaids</p></div>
+                <div class="shop" onclick="shop()"><p>Bridemaids</p></div>
+                <div class="shop" onclick="shop()"><p>Mother of the Bride</p></div>
+                <div class="shop" onclick="shop()"><p>Flower Girl Dresses</p></div>
+                <div class="shop" onclick="shop()"><p>Wedding Guest Dresses</p></div>
+                <div class="shop" onclick="shop()"><p>Plus</p></div>
+                <div class="shop" onclick="shop()"><p>Accessories</p>
+                <div class="shop" onclick="shop()"><p>Shoes</p></div>
+                </div>
+               
+            </div>
+        </div>
+        <div id="image">
+            <div id="img1" onclick="shop()">
+                <img src="https://images.ctfassets.net/5de70he6op10/6IRDUVBQz6Kkfp4w1CjqLF/d61b76f8ffdf9b62b14ef1a9f584edff/081222_HPG_slice01_LS.jpg?w=2882&q=80&fm=webp" id="image1">
+                <button  class="btn"> shop new growns</button>
+                <button class="btn1" onclick="shop()">visit the bridal shop</button>
+                
+            </div>
+            <div id="imgdiv2">
+                   <div id="img2" onclick="shop()">
+                    <img src="https://images.ctfassets.net/5de70he6op10/6epCjGdYyGt09zZtZ6PqN6/7245688f14b49d104a8591a93a88eae0/081222_HPG_slice02_LS.jpg?w=1897&q=80&fm=webp" alt="" id="img2">
+                    <button id="btn2" onclick="shop()"> shop bridesmaids look</button>
+                   
+                 </div>
+                   <div id="img3" onclick="shop()">
+                    <img src="https://images.ctfassets.net/5de70he6op10/1Qgr4bYtrGoUmKYD3nxcsl/fba7bfd2e7b7f1c9df96a6a8f99f365d/081222_HPG_slice03_LS.jpg?w=921&q=80&fm=webp" alt="" id="img3">
+                    <button id="btn3" onclick="shop()">shop viels</button>
+                </div>
+
+            </div>
+            <div id="shop_separate" onclick="shop()">
+                <img src="https://images.ctfassets.net/5de70he6op10/3IZQUTFZ07hs42KqrfOxcu/e5d2a53683af08246b139d917ed1bbda/081222_HPG_slice04_LS.jpg?w=2882&q=80&fm=webp" alt="" id="img4">
+                <button id="btn4">shop separate</button>
+                <button id="btn5">shop lingerie</button>
+            </div>
+            <div id="shopy">
+                <div id="occasion" onclick="shop()">
+                    <img src="https://images.ctfassets.net/5de70he6op10/2QlrRJ31umwfX1H4Oj8fJa/1e2dbef02398880376a10a2cccb008aa/081222_HPG_slice05_LS.jpg?w=921&q=80&fm=webp" alt="" id="img5">
+                    <button id="btn6" onclick="shop()">shop bridal occasion</button>
+                </div>
+                <div id="grown" onclick="shop()">
+                    <img src="https://images.ctfassets.net/5de70he6op10/2FNXY9IylKysk3ASs4U2eR/4ce5905a113c360ca8725dc7186753a9/081222_HPG_slice06_LS.jpg?w=1897&q=80&fm=webp" alt="" id="img6">
+                    <button id="btn7" onclick="shop()">shop grown</button>
+                </div>
+
+            </div>
+            <div id="like"><p>You May Also Like</p></div>
+
+
+        </div>
+     </div>
+     <div id="footer"></div>
+</body>
+</html>
+<script src="wedding.js"></script>

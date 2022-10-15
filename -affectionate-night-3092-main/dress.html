@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+    <link rel="stylesheet" href="dress.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="headlines">
+                <p>Weddings  /  Brides  /  Weddings Dresses</p>
+    </div>
+     <div id="tileview">
+        <div id="side">
+            <div id="sidebox">
+                <div id="browse">Browse by:</div>
+                <div id="bride">Bride</div>
+                <div class="list">Bridal Sets</div>
+                <div class="list">Bridal Shoes & Accessories</div>
+                <div class="list">Bridal Event Dresses</div>
+                <div class="list">Bridal Robes & Lingerie</div>
+                <div class="list">Plus Wedding Dresses</div>
+                <div id="filter">Filter by:</div>
+                   
+                <div class="filter_by">
+                     <div>Price</div>
+                     <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>Color</div>
+                     <div>+</div> 
+                   
+                </div>
+                <div class="filter_by">
+                    <div>Brand</div>
+                    <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>Size</div>
+                    <div>+</div>
+                </div>
+                <div class="filter_by">
+                    <div>In Stock</div>
+                    <div>+</div>
+                </div>
+               <p style="color:#E5E2DE;">Reset all filters</p>
+            </div>
+        </div> 
+     
+          <div id="product">
+           
+             <div  id="sort_bar">
+                <div id="items">Wedding Dresses</div>
+                <p id="no_items">23 products</p>
+                <div id="sort_button">
+                    <div>Sort:</div>
+                    <select name="" id="sort_by">
+                        <option value="Featured">Featured</option>
+                        <option value="Low_to_High">Price:Low to High</option>
+                        <option value="High_to_Low">Price:High to Low</option>
+                        <option value="Newest">Newest</option>
+                        <option value="Bestselling">Bestselling</option>
+                        <option value="Rating">Rating:High to Low</option>
+                        <option value="">A-Z</option>
+                        <option value="">Z-A</option>
+                    </select>
+                </div>
+             </div> 
+             <div id="product1"></div>
+        </div>  
+         
+    </div> 
+    <div id="footer"></div>
+    
+</body>
+</html>
+<script src="dress.js"></script>

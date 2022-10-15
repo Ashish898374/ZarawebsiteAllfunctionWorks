@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <script type="module">
+        import {navimp} from "./navimp.js";
+        let nav=document.getElementById('navbar').innerHTML=navimp()
+    </script>
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+</head>
+<body>
+    <div id="navbar"></div>
+    <!-- <div style="display: flex; margin-top: 70px;"> -->
+        <div id="navb">
+            <p id="con">country/region*</p>
+            <select id="selecs"> 
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="japan">japan</option>
+                <option value="US">US</option>
+                <option value="USK">USK</option>
+                <option value="Germany">Germany</option>
+                <option value="Canada"> Canada</option>
+                <option value="Australiya">Australiya</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="New zealand">New zealand</option>
+                <option value="Rasia">Rasia</option>
+                <option value="Ukrain">Ukrain</option>
+            </select>
+            <p id="fi">First name</p>
+            <input type="text"id="name">
+            <p id="las">Last name*</p>
+            <input type="text" id="last">
+            <p id="add">street Address*</p>
+            <input type="text" placeholder="35 character limit,continue below" id="address">
+            <p>Address 2</p>
+            <input type="text" placeholder="Building Suite or Apartement Number" id="add12">
+            <br>
+            <input type="checkbox" id="box"> <p id="po">Po Box</p>
+            <p>City*</p>
+            <input type="text"id="city">
+            <p id="regions">province or region</p>
+            <input type="text" placeholder="province or region" id="region">
+            <p>Post Code*</p>
+            <input type="text" id="post">
+            <p>Mobile number</p>
+            <input type="text" placeholder="do not enter country code" id="mobile">
+            <br> <br>
+            <!-- <button  id="sub">submit</button> -->
+    
+        </div>
+        <div id="payment">
+            <h2>Order Summary</h2>
+            <div id="big_div">
+                <div class="child_div">
+                    <p class="sandy_text">Subtotal</p>
+                    <p id="total_price"></p>
+                </div>
+    
+                <div class="child_div">
+                    <p class="sandy_text">Shipping</p>
+                    <p class="sandy_text">TBD</p>
+                </div>
+    
+                <!-- <div class="child_div">
+                    <p class="sandy_text">VAT</p>
+                    <p id="default">$19</p>
+                </div> -->
+    
+                <div class="child_div">
+                    <p class="sandy_text">total</p>
+                    <p id="total_text">$130</p>
+                </div>
+    
+                <div class="child_div">
+                    <p class="img_p">Klarna is only available to ship to certain countries</p>
+                    <img src="https://www.anthropologie.com/static/v3/images/klarna-logo-ea32669636986d0317f95f0c04fdcb6d.svg" alt="">
+                </div>
+    
+                <div class="child_div">
+                    <p class="img_p">Or 4 interest-free installments of $204.99 with </p>
+                    <img src="https://www.anthropologie.com/static/v3/images/afterpay-logo-7904b549fb7a2a970c606efc9f1e8260.svg" alt="">
+                </div>
+    
+                <button onclick="setdata()" id="checkout_btn">Submit</button>
+            </div>
+         </div>
+    <!-- </div> -->
+     <div id="footer"></div>
+</body>
+</html>
+<script src="payment.js"></script>

@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#accessories_container{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 700px; */
+    display: flex;
+    justify-content: space-between;
+}
+#accessories_sorting{
+    /* border: 1px solid red; */
+    width: 18%;
+}
+#accessories_product{
+    /* border: 1px solid grey; */
+    width: 80%;
+}
+#accessories_product_filter{
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+#a_women_text{
+    display: flex;
+    gap: 16px;
+}
+#a_women_text>h2{
+    font-family:"Spectral Extra Light",serif;;
+    color: #26262C;
+    letter-spacing: .12rem;
+}
+#a_women_text>p{
+    margin-top: 7px;
+    color: grey;
+}
+#accessories_filter{
+    margin-right: 100px;
+}
+#accessories_filter>label{
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+#accessories_filter>select{
+    height: 38px;
+    border: 1px solid rgb(183, 181, 181);
+    width: 55%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: grey;
+    letter-spacing: 1px;
+    outline-color: rgba(11, 83, 131, 0.866);
+}
+#accessories_filter>select>option{
+    font-size: 13px;
+}
+#accessories_append{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+}
+#accessories_append>div{
+  margin-bottom: 15px;
+}
+#accessories_append>div>img{
+    width: 100%;
+    cursor: pointer;
+}
+#accessories_append>div>p{
+    margin-top: 7px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #26262C;
+}
+#title{
+    cursor: pointer;
+}
+#accessories_browse{
+    width: 70%;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+#accessories_browse+p{
+    margin-left: 60px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    width: 15%;
+}
+a{
+    color: rgb(25, 136, 136);
+}
+#a_line{
+    border-bottom: 1px solid rgb(161, 158, 158);
+    margin-left: 60px;
+    margin-top: 15px;
+    width: 6%;
+}
+#a_cat{
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: -7px;
+  cursor: pointer;
+}
+#a_cat>p{
+     margin-top: 15px;
+     color: #26262C;
+     letter-spacing: 1px;
+     font-size: 13px;
+     font-family: "Avenir Book",sans-serif;
+     cursor: pointer;
+     
+}
+#accessories_filter_cat>p{
+    margin-left: 60px;
+    margin-top: 36px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.accessories_filter_head{
+    border-top: 1px solid rgb(208, 206, 206);
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 60px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.accessories_filter_head>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.accessories_filter_head>div:hover .accessories_text{
+   color: #1a85b7;
+}
+.accessories_text{
+    font-size: 16px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.accessories_plus-text{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.accessories_filter_head>div:hover .accessories_plus-text{
+    color: #1a85b7;
+ }
+ .accessories_filter_head2{
+    /* border-top: 1px solid rgb(208, 206, 206); */
+    border-bottom: 1px solid rgb(208, 206, 206);
+    height: 40px;
+    margin-left: 60px;
+    width: 70%;
+    margin-top: 12px;
+    
+}
+.accessories_filter_head2>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 47px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.accessories_filter_head2>div:hover .accessories_text2{
+   color: #1a85b7;
+}
+.accessories_text2{
+    font-size: 15px;
+    font-family: "Avenir Book",sans-serif;
+    letter-spacing: 1.2px;
+    color: #26262C;
+}
+.accessories_text2+p{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(133, 132, 132);
+}
+.accessories_filter_head2>div:hover .accessories_plus-text2{
+    color: #1a85b7;
+ }
+
+ #div_hover{
+    border: 1px solid red;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    display: none;
+ }
+ #nondivhover{
+    display: block;
+ }

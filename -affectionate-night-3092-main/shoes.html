@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthropologie-Shoes</title>
+    <script src="https://kit.fontawesome.com/d440dbf060.js" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "https://www.bing.com/th?id=ODLS.0051b818-e457-4786-a718-e99406a0d96c&w=32&h=32&o=6&pid=13.1" type = "image/x-icon">
+    <link rel="stylesheet" href="shoes.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <script type="module">
+        import {footimp} from "./footimp.js"
+        document.querySelector("#footer").innerHTML=footimp();
+    </script>
+    
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="shoes-category">
+      <div>
+        <div>
+            <img src="https://images.ctfassets.net/5de70he6op10/4FcYIjIGRr8RSjpXeazWlu/e816127c5bc16632df8f3b11688d71db/boots.jpg?w=630&q=80&fm=webp" alt="">
+            <p>BOOTS</p>
+        </div>
+        <div>
+            <img src="https://images.ctfassets.net/5de70he6op10/39UHz7e1mlO8F4OJOeFsS/aa5da7c9d538afa0f69dea5fe7045914/clogs.jpg?w=630&q=80&fm=webp" alt="">
+            <p>CLOGS</p>
+        </div>
+        <div>
+            <img src="https://images.ctfassets.net/5de70he6op10/2stZ8y696htfya9xYW18OE/94f013903bd248ec4cd033edab0a4d95/cowboy_boots.jpg?w=500&q=80&fm=webp" alt="">
+            <p>COWBOY BOOTS</p>
+        </div>
+        <div>
+            <img src="https://images.ctfassets.net/5de70he6op10/4CnnuezEiO56gbXIr3sqv7/a1418995cb85767fabaee3ef4065ad24/heels.jpg?w=630&q=80&fm=webp" alt="">
+            <p>HEELS</p>
+        </div>
+        <div>
+            <img src="https://images.ctfassets.net/5de70he6op10/1oUpQ82nDyZdgsrinZq3lM/904c68d0732d1189e387bbb77ef57881/mary_janes.jpg?w=630&q=80&fm=webp" alt="">
+            <p>MARRY JANES</p>
+        </div>
+        <div>
+            <img src="https://images.ctfassets.net/5de70he6op10/1oUpQ82nDyZdgsrinZq3lM/904c68d0732d1189e387bbb77ef57881/mary_janes.jpg?w=630&q=80&fm=webp" alt="">
+            <p>SNEAKER</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="shoes_container">
+        <div id="shoes_sorting">
+            <div id="shoe_browse">Browse by:</div>
+            <p><a href="">Shoes</a></p>
+            <div id="line"></div>
+            <div id="cat">
+                <p>New!</p>
+                <p>Boots & Booties</p>
+                <p>Flats</p>
+                <p>Heels & Wedges</p>
+                <p>Mules & Clogs</p>
+                <p>Sandals</p>
+                <p>Slipers</p>
+                <p>Sneakers</p>
+            </div>
+            <div id="shoe_filter_cat">
+                <p>Filter by:</p>
+                <div class="shoe_filter_head">
+                    <div>
+                        <h2 class="text">Color</h2>
+                        <p class="plus-text">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">Occasion</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">Price</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">Heel Type</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">Material</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">Size</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">High Heel</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">Brand</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+                <div class="shoe_filter_head2">
+                    <div>
+                        <h2 class="text2">In Stock</h2>
+                        <p class="plus-text2">+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="shoes_product">
+            <div id="shoe_product_filter">
+                <div id="women_text">
+                    <h2>Women's Shoes</h2>
+                    <p id="total"></p>
+                </div>
+                <div id="shoe_filter">
+                    <label for="">Sort:</label>
+                    <select name="" onchange="sortingfun()" id="select-value">
+                        <option value="">Featured</option>
+                        <option value="lth">Price:Low to High</option>
+                        <option value="htl">Price:High to Low</option>
+                        <option value="atz">A-Z</option>
+                        <option value="zta">Z-A</option>
+                    </select>
+                </div>
+            </div>
+             <div id="shoe_append">
+                
+             </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="shoes.js"></script>
+<script type="module">
+    import {navimp} from "/navimp.js";
+    let nav=document.getElementById('navbar').innerHTML=navimp()
+</script>
